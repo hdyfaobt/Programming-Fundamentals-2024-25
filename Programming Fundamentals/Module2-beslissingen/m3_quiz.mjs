@@ -12,7 +12,7 @@ if (antwoord.toLowerCase() === 'parijs') {
     punten++;
     console.log('U hebt momenteel ' + punten + '/5');
 } else {
-    console.log('Spijtig, dit is niet het juiste antwoord...');
+    console.log('Spijtig, dit is niet het juiste antwoord... antwoord is Parijs');
     console.log('U hebt momenteel ' + punten + '/5');
 }
 
@@ -25,7 +25,7 @@ if (parseInt(antwoord) === 6) {  // Gebruik `parseInt` om het antwoord naar een 
     punten++;
     console.log('U hebt momenteel ' + punten + '/5');
 } else {
-    console.log('Spijtig, dit is niet het juiste antwoord...');
+    console.log('Spijtig, dit is niet het juiste antwoord... 6');
     console.log('U hebt momenteel ' + punten + '/5');
 }
 
@@ -38,7 +38,7 @@ if (antwoord.toLowerCase() === 'groen') {  // Haakjes toegevoegd bij `toLowerCas
     punten++;
     console.log('U hebt momenteel ' + punten + '/5');
 } else {
-    console.log('Spijtig, dit is niet het juiste antwoord...');
+    console.log('Spijtig, dit is niet het juiste antwoord... groen');
     console.log('U hebt momenteel ' + punten + '/5');
 }
 
@@ -51,7 +51,7 @@ if (antwoord.toLowerCase() === 'real madrid') {  // Haakjes toegevoegd bij `toLo
     punten++;
     console.log('U hebt momenteel ' + punten + '/5');
 } else {
-    console.log('Spijtig, dit is niet het juiste antwoord...');
+    console.log('Spijtig, dit is niet het juiste antwoord... Real Madrid');
     console.log('U hebt momenteel ' + punten + '/5');
 }
 
@@ -65,7 +65,7 @@ if (antwoord.toLowerCase() === 'barcelona' || antwoord.toLowerCase() ==='fc barc
     console.log('') //witregel
     console.log('U hebt uitijndelijk ' + punten + '/5');
 } else {
-    console.log('Spijtig, dit is niet het juiste antwoord...');
+    console.log('Spijtig, dit is niet het juiste antwoord... FC Barcelona');
     console.log('') //witregel
     console.log('U hebt uitijndelijk ' + punten + '/5   !!');
 }

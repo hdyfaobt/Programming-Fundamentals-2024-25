@@ -11,6 +11,6 @@ let seconden = parseFloat(await userInput.question("geef het aantal seconden in.
 
 let totInSec= (dagen*86400) + (uren*3600) + (minuten*60) + seconden;
 
-console.log(totInSec);
+console.log(totInSec + ' seconden');
 
 process.exit();
